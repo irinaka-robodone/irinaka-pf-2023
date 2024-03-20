@@ -7,7 +7,7 @@ tags:
   - "2023"
   - student
 
-social_image: /media/rocket.jpg
+social_image: /media/logo/robodone_logo.png
 description: 同じ画面で2人で遊ぶオセロゲームです。Python で Pyxel というゲーム開発エンジンを使って開発しました。スマートフォンで遊べます。
 ---
 

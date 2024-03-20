@@ -6,7 +6,7 @@ tags:
   - pyxel
   - "2023"
   - student
-social_image: /media/rocket.jpg
+social_image: /media/logo/robodone_logo.png
 description: キーボードの矢印キーでヘビを操作するスネークゲームです。Python で Pyxel というゲーム開発エンジンを使って開発しました。スマートフォンで遊べます。
 ---
 

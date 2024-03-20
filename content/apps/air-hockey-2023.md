@@ -6,7 +6,7 @@ tags:
   - pyxel
   - "2023"
   - teacher
-social_image: /media/rocket.jpg
+social_image: /media/logo/robodone_logo.png
 description: 同じ画面で2人で遊ぶエアホッケーゲームです。Python で Pyxel というゲーム開発エンジンを使って開発しました。キーボードでホッケーを操作して５点先取で勝利を目指してください。
 ---
 

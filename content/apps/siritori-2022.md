@@ -7,7 +7,7 @@ tags:
   - pyxel
   - "2022"
   - student
-social_image: /media/rocket.jpg
+social_image: /media/logo/robodone_logo.png
 description: 同じ画面で2人で遊ぶしりとりゲームです。CPU対戦モードもあります。Python で Pygame というゲーム開発エンジンを使って開発したものを、WEBアプリ化するために Pyxel に移植したものです。
 ---
 
