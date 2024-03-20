@@ -61,7 +61,7 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         frontmatter: { tags: { in: [$tag] } }
-        fields: { contentType: { eq: "posts" } }
+        fields: { contentType: { eq: "apps" } }
       }
     ) {
       totalCount

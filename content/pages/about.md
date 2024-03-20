@@ -1,12 +1,11 @@
 ---
 title: About Mee
 template: about-template
-profile_image: /media/profile-image.jpg
+profile_image: /media/logo/robodone_logo.png
 ---
 
-# Hi, I'm John Doe
+# ロボ団いりなか校です
 
-This website is a live example of a Gatsby Starter — it's not a real blog.
-People using this starter may want to add some information to this page about them or their business.
-
-
+ロボ団いりなか校は、名古屋市の鶴舞線いりなか駅から徒歩１分の場所にあるロボットプログラミング教室です。
+このサイトでは、これまでに在籍した・在籍中の生徒と講師が教室で制作したアプリ・ゲームを展示しています。
+どのアプリ・ゲームも実際に動かすことができます。

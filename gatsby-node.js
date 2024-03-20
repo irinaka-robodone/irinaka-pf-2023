@@ -30,7 +30,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
         tagsGroup: allMarkdownRemark(
           limit: 2000
-          filter: { fields: { contentType: { eq: "posts" } } }
+          filter: { fields: { contentType: { eq: "apps" } } }
         ) {
           group(field: frontmatter___tags) {
             fieldValue
@@ -58,6 +58,35 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const pageMarkdownNodes = allMarkdownNodes.filter(
     (node) => node.fields.contentType === `pages`
   );
+
+  const appMardownNodes = allMarkdownNodes.filter(
+    (node) => node.fields.contentType === `apps`
+  );
+
+  if (appMardownNodes.length > 0) {
+    appMardownNodes.forEach((node, index) => {
+      let prevSlug = null;
+      let nextSlug = null;
+
+      if (index > 0) {
+        prevSlug = appMardownNodes[index - 1].fields.slug;
+      }
+
+      if (index < appMardownNodes.length - 1) {
+        nextSlug = appMardownNodes[index + 1].fields.slug;
+      }
+
+      createPage({
+        path: `${node.fields.slug}`,
+        component: path.resolve(`./src/templates/app-template.js`),
+        context: {
+          slug: `${node.fields.slug}`,
+          prevSlug: prevSlug,
+          nextSlug: nextSlug,
+        },
+      });
+    });
+  }
 
   if (blogMarkdownNodes.length > 0) {
     blogMarkdownNodes.forEach((node, index) => {
@@ -128,11 +157,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value: fileNode.sourceInstanceName,
     });
 
-    if (fileNode.sourceInstanceName === 'posts') {
+    if (fileNode.sourceInstanceName === 'apps') {
       createNodeField({
         name: `slug`,
         node,
-        value: `/blog${relativeFilePath}`,
+        value: `/apps${relativeFilePath}`,
       });
     }
 

@@ -7,17 +7,22 @@ import { useStaticQuery, graphql } from "gatsby";
 
 const HEADER_NAV_ITEM = [
   {
-    label: "Blog",
-    url: "/blog",
+    label: "アプリ/ゲーム",
+    url: "/apps",
     isExternal: false,
   },
   {
-    label: "About",
+    label: "投票",
+    url: "/poll",
+    isExternal: false,
+  },
+  {
+    label: "サイトについて",
     url: "/about",
     isExternal: false,
   },
   {
-    label: "Contact",
+    label: "お問い合わせ",
     url: "/contact",
     isExternal: false,
   },
@@ -40,7 +45,7 @@ const Header = () => {
     <StyledHeader>
       <HeaderWrapper>
         <HeaderTitle>
-          <Link to="/">{site.siteMetadata.title}</Link>
+          <b><Link to="/">{site.siteMetadata.title}</Link></b>
         </HeaderTitle>
 
         <HeaderNavList>
@@ -49,7 +54,7 @@ const Header = () => {
               return (
                 <HeaderNavListItem key={index}>
                   <a href={item.url} target="_blank" rel="noopener noreferrer">
-                    {item.label}
+                    <b>{item.label}</b>
                   </a>
                 </HeaderNavListItem>
               );
@@ -57,7 +62,7 @@ const Header = () => {
 
             return (
               <HeaderNavListItem key={index}>
-                <Link to={item.url}>{item.label}</Link>
+                <b><Link to={item.url}>{item.label}</Link></b>
               </HeaderNavListItem>
             );
           })}

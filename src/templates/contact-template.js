@@ -146,6 +146,11 @@ const ContactWrapper = styled.div`
 const ContactCopy = styled.div`
   max-width: 45ch;
 
+  & h1 {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
   & p {
     font-size: var(--size-400);
   }

@@ -28,9 +28,9 @@ const HomePage = ({ data }) => {
           margin-right: auto;
           width: fit-content;
         `}
-        to="/blog"
+        to="/apps"
       >
-        View All posts
+        すべてのアプリを見る
       </StyledLink>
     </Layout>
   );
@@ -54,6 +54,11 @@ const Intro = styled.div`
     font-size: var(--size-400);
   }
 
+  & h1 {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
   @media screen and (max-width: 700px) {
     & h1 {
       font-size: var(--size-700);
@@ -69,7 +74,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "posts" } } }
+      filter: { fields: { contentType: { eq: "apps" } } }
       sort: { order: DESC, fields: frontmatter___date }
       limit: 9
     ) {

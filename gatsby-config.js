@@ -1,28 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: `ロボ団いりなか校マスタークラス卒業制作集`,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `ロボ団いりなか校`,
+      summary: `鶴舞線いりなか駅すぐにあるプログラミング教室ロボ団いりなか校です。`,
     },
     openGraphImage: `open-graph-image.png`,
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
+    description: `ロボ団いりなか校マスタークラスの 2022年、2023年度の卒業制作アプリ・ゲームを紹介するサイトです。実際に遊ぶことができます。`,
     siteUrl: `https://gatsbyglass.netlify.app`,
     social: {
-      twitter: `yinkakun`,
+      github: `irinaka-robodone`,
     },
     socialLinks: [
       {
         name: "github",
-        url: "https://github.com",
+        url: "https://github.com/irinaka-robodone",
       },
       {
-        name: "twitter",
-        url: "https://twitter.com",
-      },
-      {
-        name: "instagram",
-        url: "https://instagram.com",
+        name: "ロボ団いりなか校HP",
+        url: "https://www.meigakukan.co.jp/robo-done/",
       },
     ],
   },
@@ -49,8 +45,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "posts",
-        path: `${__dirname}/content/posts`,
+        name: "apps",
+        path: `${__dirname}/content/apps`,
       },
     },
     {

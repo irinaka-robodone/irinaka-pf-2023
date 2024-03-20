@@ -3,6 +3,6 @@ template: "index-template"
 title: "Gatsby Starter Glass"
 ---
 
-# Hello World
+# 制作したもの一覧
 
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+これまでに在籍した/在籍中の生徒と講師が教室で制作したアプリ・ゲーム。
