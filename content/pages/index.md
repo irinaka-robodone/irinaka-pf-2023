@@ -1,6 +1,6 @@
 ---
 template: "index-template"
-title: "Gatsby Starter Glass"
+title: "ロボ団いりなか校マスタークラス卒業制作集"
 ---
 
 # 制作したもの一覧

@@ -11,9 +11,9 @@ social_image: /media/logo/robodone_logo.png
 description: 同じ画面で2人で遊ぶしりとりゲームです。CPU対戦モードもあります。Python で Pygame というゲーム開発エンジンを使って開発したものを、WEBアプリ化するために Pyxel に移植したものです。
 ---
 
-<iframe src="https://irinaka-robodone.github.io/siritori-2022/siritori-2022" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://irinaka-robodone.github.io/pyxel-siritori/" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
 
-<b>[全画面で遊ぶ](https://irinaka-robodone.github.io/siritori-2022/siritori-2022)</b>
+<b>[全画面で遊ぶ](https://irinaka-robodone.github.io/pyxel-siritori/)</b>
 
 ## アプリ名
 しりとりゲーム
@@ -36,7 +36,7 @@ description: 同じ画面で2人で遊ぶしりとりゲームです。CPU対戦
 
 <b>追記</b>
 
-ここで紹介されたアプリは 2022年当時は Pygame で制作しましたが、WEB からも遊べるように Pyxel というゲーム開発エンジンを使って書き直したものになります。また移植に際して CPU 対戦モードを追加しました。
+ここで紹介されたアプリは 2022年当時は Pygame で制作しましたが、WEB からも遊べるように Pyxel というゲーム開発エンジンを使って書き直したものになります。また移植に際して CPU 対戦形式に変更しました。
 
 ## ソースコード
-https://github.com/irinaka-robodone/siritori-2022
+https://github.com/irinaka-robodone/pyxel-siritori
