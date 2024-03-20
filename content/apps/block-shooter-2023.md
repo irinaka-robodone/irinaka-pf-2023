@@ -11,15 +11,15 @@ social_image: /media/logo/robodone_logo.png
 description: 1人プレイのブロック崩しゲームです。Python で Pyxel というゲーム開発エンジンを使って開発しました。スマートフォンで遊べます。
 ---
 
-<iframe src="https://irinaka-robodone.github.io/block-shooter-2023/block-shooter-2023" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://irinaka-robodone.github.io/block-kuzushi-2023/" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
 
-<b>[全画面で遊ぶ](https://irinaka-robodone.github.io/block-shooter-2023/block-shooter-2023)</b>
+<b>[全画面で遊ぶ](https://irinaka-robodone.github.io/block-kuzushi-2023/)</b>
 
 ## アプリ名
 ブロック崩し
 
 ## 制作期間
-2023年11月 ~ 2024年3月
+2023年12月 ~ 2024年3月
 
 ## 制作者コメント
 <br>
@@ -31,4 +31,4 @@ description: 1人プレイのブロック崩しゲームです。Python で Pyxe
 同上
 
 ## ソースコード
-https://github.com/irinaka-robodone/block-shooter-2023
+https://github.com/irinaka-robodone/block-kuzushi-2023
