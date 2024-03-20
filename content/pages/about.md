@@ -1,5 +1,5 @@
 ---
-title: About Mee
+title: サイトについて
 template: about-template
 profile_image: /media/logo/robodone_logo.png
 ---

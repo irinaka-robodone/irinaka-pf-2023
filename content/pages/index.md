@@ -1,6 +1,6 @@
 ---
 template: "index-template"
-title: "ロボ団いりなか校マスタークラス卒業制作集"
+title: "ホーム"
 ---
 
 # 制作したもの一覧
