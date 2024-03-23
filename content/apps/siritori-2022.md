@@ -11,7 +11,7 @@ social_image: /media/logo/robodone_logo.png
 description: 同じ画面で2人で遊ぶしりとりゲームです。CPU対戦モードもあります。Python で Pygame というゲーム開発エンジンを使って開発したものを、WEBアプリ化するために Pyxel に移植したものです。
 ---
 
-<iframe src="https://irinaka-robodone.github.io/pyxel-siritori/" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://irinaka-robodone.github.io/pyxel-siritori/" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 <b>[全画面で遊ぶ](https://irinaka-robodone.github.io/pyxel-siritori/)</b>
 

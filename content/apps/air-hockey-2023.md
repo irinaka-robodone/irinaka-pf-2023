@@ -10,7 +10,7 @@ social_image: /media/logo/robodone_logo.png
 description: 同じ画面で2人で遊ぶエアホッケーゲームです。Python で Pyxel というゲーム開発エンジンを使って開発しました。キーボードでホッケーを操作して５点先取で勝利を目指してください。
 ---
 
-<iframe src="https://irinaka-robodone.github.io/air-hocky-2023/air-hockey-2023" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://irinaka-robodone.github.io/air-hocky-2023/air-hockey-2023" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 <b>[全画面で遊ぶ](https://irinaka-robodone.github.io/air-hocky-2023/air-hockey-2023)</b>
 

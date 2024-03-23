@@ -11,7 +11,7 @@ social_image: /media/logo/robodone_logo.png
 description: 1人プレイのブロック崩しゲームです。Python で Pyxel というゲーム開発エンジンを使って開発しました。スマートフォンで遊べます。
 ---
 
-<iframe src="https://irinaka-robodone.github.io/block-kuzushi-2023/" width="100%" height="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://irinaka-robodone.github.io/block-kuzushi-2023/" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 <b>[全画面で遊ぶ](https://irinaka-robodone.github.io/block-kuzushi-2023/)</b>
 

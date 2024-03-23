@@ -10,7 +10,7 @@ social_image: /media/logo/robodone_logo.png
 description: 1人で遊ぶテトリスです。ホールドやハードドロップなどの機能もついています。Python で Pyxel というゲーム開発エンジンを使って開発しました。キーボードが必要です。
 ---
 
-<iframe src="https://irinaka-robodone.github.io/tetris-2023/" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://irinaka-robodone.github.io/tetris-2023/" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 <b>[全画面で遊ぶ](https://irinaka-robodone.github.io/tetris-2023/)</b>
 
