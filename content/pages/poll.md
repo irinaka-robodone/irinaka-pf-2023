@@ -2,7 +2,7 @@
 template: "poll-template"
 title: "投票"
 profile_image: /media/nezu_bow.png
-poll_qrcode: /media/poll_qrcode.png
+poll_qrcode: /media/dummy_qrcode.png
 ---
 
 # 品評会投票
@@ -11,7 +11,9 @@ poll_qrcode: /media/poll_qrcode.png
 ### 以下のリンクから回答にご協力ください。</b>
 <br>
 
-### <b>https://questant.jp/q/SG9POEEL</b>
+<!-- ### <b>https://questant.jp/q/SG9POEEL</b> -->
+
+投票は終了しました。ご協力ありがとうございました。
 
 <br>
 
