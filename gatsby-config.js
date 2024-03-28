@@ -159,6 +159,15 @@ module.exports = {
         icon: `src/images/nyan_GJ.png`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: ["G-9HL6JDF3WP"],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
   ],
 };
