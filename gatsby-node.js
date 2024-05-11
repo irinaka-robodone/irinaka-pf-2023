@@ -172,6 +172,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         value: relativeFilePath,
       });
     }
+
+    if (fileNode.sourceInstanceName === 'posts') {
+      createNodeField({
+        name: `slug`,
+        node,
+        value: `/posts${relativeFilePath}`,
+      });
+    }
   }
 };
 
