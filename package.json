@@ -1,6 +1,7 @@
 {
   "name": "gatsby-starter-glass",
   "private": true,
+  "license": "MIT",
   "description": "A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.",
   "version": "1.0.0",
   "author": "Yinka Adedire <yinkakun@gmail.com>",
@@ -20,6 +21,7 @@
     "gatsby-remark-copy-linked-files": "^5.24.0",
     "gatsby-remark-images": "^6.24.0",
     "gatsby-remark-prismjs": "^6.24.0",
+    "gatsby-remark-prismjs-copy-button": "^0.4.0",
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-remark-responsive-iframe": "^5.24.0",
     "gatsby-remark-smartypants": "^5.24.0",
@@ -46,7 +48,6 @@
     "gatsby",
     "netlify cms"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yinkakun/gatsby-starter-glass.git"

@@ -6963,6 +6963,11 @@ gatsby-remark-images@^6.24.0:
     unist-util-select "^3.0.4"
     unist-util-visit-parents "^3.1.1"
 
+gatsby-remark-prismjs-copy-button@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/gatsby-remark-prismjs-copy-button/-/gatsby-remark-prismjs-copy-button-0.4.0.tgz"
+  integrity sha512-UOoni6iRNvzGbyNKtHahpllf0UJBw+TC+mI4pqGkeJdGNaWxInpnB/paCD2LCQ5o2Hga55ngQ6t3bkVzkxhJsw==
+
 gatsby-remark-prismjs@^6.24.0:
   version "6.24.0"
   resolved "https://registry.npmjs.org/gatsby-remark-prismjs/-/gatsby-remark-prismjs-6.24.0.tgz"
@@ -7102,7 +7107,7 @@ gatsby-worker@^1.24.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-"gatsby@^2.0.0 || ^3.0.0 || ^4.0.0", gatsby@^4.0.0-next, gatsby@^4.24.3, gatsby@^5.0.0-next:
+"gatsby@^2.0.0 || ^3.0.0 || ^4.0.0", "gatsby@^3.0.0 || ^4.0.0 || ^5.0.0", gatsby@^4.0.0-next, gatsby@^4.24.3, gatsby@^5.0.0-next:
   version "4.24.3"
   resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.24.3.tgz"
   integrity sha512-TbP1R5be44ok83ZZJg1tC7NMxs0XzciUjiGxlGjTVUcnBfdUlKBzN9a3Br/WwDBGniAZ1zpEPQNVTqPsYp0r6A==
