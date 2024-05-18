@@ -41,17 +41,17 @@ VSCode がインストールされていない場合は、**[VSCode の公式サ
 VSCode のインストールが完了したら、VSCode を起動しましょう。このままでも開発はできますが、日本語化や Python の開発環境を整えるための拡張機能をインストールすると便利です。
 VSCode が起動したら、左側のアイコンから **Extensions** を選択して、まずは VSCode の日本語化を行いましょう。
 
-![open-extensions](./pyxel-to-html/open-extensions.jpg)
+![open-extensions](/media/pyxel-to-html/open-extensions.jpg)
 
 Extensions 画面が開いたら、検索バーに `japanese` と入力して、**Japanese Language Pack for Visual Studio Code** をインストールしてください。これは Microsoft が提供している日本語化の拡張機能です。
 
-![install-japanese](./pyxel-to-html/install-japanese.jpg)
+![install-japanese](/media/pyxel-to-html/install-japanese.jpg)
 
 インストールが完了したら、VSCode を再起動すると日本語化が完了します。
 
 次に Python の開発環境を整えましょう。Extensions 画面を開いて、検索バーに `python` と入力して **Python** をインストールしてください。これは Python の開発環境を整えるための拡張機能です。
 
-![install-python-extension](./pyxel-to-html/install-python-ext.jpg)
+![install-python-extension](/media/pyxel-to-html/install-python-ext.jpg)
 
 ここまでで VSCode を使った最低限の Python の開発環境を整えることができました。
 
@@ -79,7 +79,7 @@ pip install -U pyxel
 
 VSCode からもターミナルを開くことができます。VSCode を起動して、メニューから **画面(View)** > **ターミナル(Terminal)** を選択するとターミナルが開きます。
 
-![VSCode でターミナルを開く](./pyxel-to-html/open-terminal-on-vscode.jpg)
+![VSCode でターミナルを開く](/media/pyxel-to-html/open-terminal-on-vscode.jpg)
 
 VSCode 内のターミナルからでも上記のコマンドを実行するｋとで Pyxel をインストールできます。
 
@@ -106,11 +106,11 @@ Python の実行環境と Pyxel のインストールが完了したら、Pyxel 
 
 GitHub リポジトリをダウンロードするには、リポジトリのトップページにある **Code** ボタンをクリックして **Download ZIP** を選択してください。ソースコードが Zip 形式で圧縮されたものがダウンロードされます。
 
-![GitHub リポジトリを Zip 形式でダウンロードする](./pyxel-to-html/github-download-zip.jpg)
+![GitHub リポジトリを Zip 形式でダウンロードする](/media/pyxel-to-html/github-download-zip.jpg)
 
 ダウンロードした Zip ファイルを解凍すると、ゲームのソースコードが含まれているフォルダができます。このフォルダを VSCode で開いてください。
 
-![解凍したフォルダーの見た目 (Windows11 の例)](./pyxel-to-html/unzipped-folder.jpg)
+![解凍したフォルダーの見た目 (Windows11 の例)](/media/pyxel-to-html/unzipped-folder.jpg)
 
 VSCode がインストールされていない場合は、**[VSCode の公式サイト](https://code.visualstudio.com/)** からインストーラーをダウンロードしてインストールしてください。
 
@@ -120,7 +120,7 @@ VSCode がインストールされていない場合は、**[VSCode の公式サ
 
 VSCode 上で以下のように `src/app.py` か `src/main.py`, `src/game.py` を見つてください。これがゲームを動かすメインのスクリプトファイルです。
 
-![src/app.py を開いて実行する例](./pyxel-to-html/src-app-py.jpg)
+![src/app.py を開いて実行する例](/media/pyxel-to-html/src-app-py.jpg)
 
 画像のようにエディター画面で `src/app.py` を開いたら、右上の再生ボタンをクリックしてください。ゲームが起動すれば、Pyxel で作ったゲームが動くことが確認できます。
 
@@ -173,7 +173,9 @@ pyxel app2html src.pyxapp
 
 コマンドが正常に実行されると、`src.html` ファイルが生成されます。このファイルをブラウザで開くと、Pyxel で作ったゲームアプリが動くことが確認できます。
 
-pyxel コマンドを使った HTML への変換についての詳細は、[Pyxel アプリを HTML ファイルに変換する | kitao/pyxel](https://github.com/kitao/pyxel/wiki/How-To-Use-Pyxel-Web-(%E6%97%A5%E6%9C%AC%E8%AA%9E)#pyxel-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92-html-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B)
+![Pyxel を ブラウザーで開いた例](/media/pyxel-to-html/pyxel-on-browser.jpg)
+
+pyxel コマンドを使った HTML への変換についての詳細は、**[Pyxel アプリを HTML ファイルに変換する](https://github.com/kitao/pyxel/wiki/How-To-Use-Pyxel-Web-(%E6%97%A5%E6%9C%AC%E8%AA%9E)#pyxel-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92-html-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B)**
 を参照してください。
 
 ## まとめ
