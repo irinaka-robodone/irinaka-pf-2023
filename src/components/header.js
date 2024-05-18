@@ -12,8 +12,8 @@ const HEADER_NAV_ITEM = [
     isExternal: false,
   },
   {
-    label: "投票",
-    url: "/poll",
+    label: "記事",
+    url: "/posts",
     isExternal: false,
   },
   {
