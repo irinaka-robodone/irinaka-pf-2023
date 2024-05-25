@@ -23,11 +23,13 @@ module.exports = {
     ],
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-image`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    "gatsby-plugin-use-dark-mode",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `static`,
+        path: `${__dirname}/static`,
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -56,6 +58,11 @@ module.exports = {
         path: `${__dirname}/content/posts`,
       },
     },
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    "gatsby-plugin-use-dark-mode",
     {
       resolve: `gatsby-transformer-remark`,
       options: {
