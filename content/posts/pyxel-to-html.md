@@ -173,7 +173,7 @@ pyxel app2html src.pyxapp
 
 コマンドが正常に実行されると、`src.html` ファイルが生成されます。このファイルをブラウザで開くと、Pyxel で作ったゲームアプリが動くことが確認できます。
 
-![Pyxel を ブラウザーで開いた例](/media/pyxel-to-html/pyxel-on-browser.jpg)
+![Pyxel を ブラウザーで開いた例](../../static/media/pyxel-to-html/pyxel-on-browser.jpg)
 
 pyxel コマンドを使った HTML への変換についての詳細は、**[Pyxel アプリを HTML ファイルに変換する](https://github.com/kitao/pyxel/wiki/How-To-Use-Pyxel-Web-(%E6%97%A5%E6%9C%AC%E8%AA%9E)#pyxel-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92-html-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B)**
 を参照してください。
