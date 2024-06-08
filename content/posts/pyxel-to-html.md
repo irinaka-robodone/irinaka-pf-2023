@@ -89,7 +89,7 @@ pip not found と表示される場合は、Python のインストール時に p
 
 - [Python のインストール方法](https://www.python.jp/install/install.html)
 
-## Pyxel でつくられたゲームを用意する
+## Pyxel でつくられたゲームのソースコードを用意する
 
 Python の実行環境と Pyxel のインストールが完了したら、Pyxel でゲームを作りましょう。
 ただしゼロからつくる必要はありません。ここではゲームを HTML 化する方法を紹介するので、ロボ団いりなか校でこれまでに制作したゲームのソースコードを使います。制作したほとんどのゲームのソースコードは [ロボ団いりなか校のリポジトリ一覧 | GitHub](https://github.com/irinaka-robodone?tab=repositories) に公開しているので、１つを選んでダウンロードしてください。
@@ -109,6 +109,19 @@ GitHub リポジトリをダウンロードするには、リポジトリのト�
 ![GitHub リポジトリを Zip 形式でダウンロードする](/media/pyxel-to-html/github-download-zip.jpg)
 
 ダウンロードした Zip ファイルを解凍すると、ゲームのソースコードが含まれているフォルダができます。このフォルダを VSCode で開いてください。
+
+また、ローカルに Git がインストールされていて git config を設定済みの場合は、リポジトリをクローンする方法がより適切です。
+
+ターミナルを起動して適切な場所に移動し、以下のコマンドを実行してリポジトリをクローンしてください。
+
+```bash
+git clone {リポジトリの URL}
+```
+
+例: `othello-2023` リポジトリをクローンする場合
+```bash
+git clone https://github.com/irinaka-robodone/othello-2023.git
+```
 
 ![解凍したフォルダーの見た目 (Windows11 の例)](/media/pyxel-to-html/unzipped-folder.jpg)
 
