@@ -110,6 +110,10 @@ GitHub リポジトリをダウンロードするには、リポジトリのト�
 
 ダウンロードした Zip ファイルを解凍すると、ゲームのソースコードが含まれているフォルダができます。このフォルダを VSCode で開いてください。
 
+![解凍したフォルダーの見た目 (Windows11 の例)](/media/pyxel-to-html/unzipped-folder.jpg)
+
+VSCode がインストールされていない場合は、**[VSCode の公式サイト](https://code.visualstudio.com/)** からインストーラーをダウンロードしてインストールしてください。
+
 また、ローカルに Git がインストールされていて git config を設定済みの場合は、リポジトリをクローンする方法がより適切です。
 
 ターミナルを起動して適切な場所に移動し、以下のコマンドを実行してリポジトリをクローンしてください。
@@ -123,9 +127,11 @@ git clone {リポジトリの URL}
 git clone https://github.com/irinaka-robodone/othello-2023.git
 ```
 
-![解凍したフォルダーの見た目 (Windows11 の例)](/media/pyxel-to-html/unzipped-folder.jpg)
+クローンしたリポジトリはターミナルで次のようにして VSCode で開くことができます。
 
-VSCode がインストールされていない場合は、**[VSCode の公式サイト](https://code.visualstudio.com/)** からインストーラーをダウンロードしてインストールしてください。
+```bash
+code {リポジトリのフォルダー名}
+```
 
 ## Pyxel でゲームが動くか確認する
 
