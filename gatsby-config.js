@@ -1,13 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `ロボ団いりなか校マスタークラス卒業制作集`,
+    title: `ロボ団いりなか校ポートフォリオサイト`,
     author: {
       name: `ロボ団いりなか校`,
-      summary: `鶴舞線いりなか駅すぐにあるプログラミング教室ロボ団いりなか校です。`,
+      summary: `名古屋の名鉄鶴舞線いりなか駅すぐにあるプログラミング教室ロボ団いりなか校です。`,
     },
-    openGraphImage: `open-graph-image.png`,
-    description: `ロボ団いりなか校マスタークラスの 2022年、2023年度の卒業制作アプリ・ゲームを紹介するサイトです。実際に遊ぶことができます。`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
+    openGraphImage: `media/logo/robodone_logo.png`,
+    description: `ロボットプログラミングスクールのロボ団いりなか校で、
+    2022年度から生徒や先生がこれまでに制作してきた制作中のアプリやゲームを紹介しています。
+    アプリやゲームの説明に加えてソースコードを閲覧することが出来たり、実際に遊ぶことができます。`,
+    siteUrl: `https://irinaka-pf-2023.vercel.app/`,
     social: {
       github: `irinaka-robodone`,
     },
